@@ -1,115 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Le Scone</title>
-    <meta name="description" content="Le Scone - Restaurante" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=PT+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-
-  <body>
-    <main class="container intro">
-      <div class="grid-5">
-        <img class="logo" src="img/lescone.png" alt="Le Scone" />
-        <div class="intro-info">
-          <p>
-            De Seg. à Sab.<span class="aberto"></span><br />
-            das 07:00h às 18:00h
-          </p>
-          <p>
-            Praia de Botafogo, 300<br />
-            Rio de Janeiro - RJ
-          </p>
-        </div>
-        <p class="intro-telefone">+55 021 2412-3333</p>
-      </div>
-
-      <div class="grid-7">
-        <img class="intro-foto" src="img/foto.jpg" alt="Loja Le Scone" />
-      </div>
-    </main>
-
-    <section class="container menu">
-      <h1 class="grid-4 titulo">Menu</h1>
-      <div class="grid-7 offset-1">
-        <div class="menu-item">
-          <img src="img/prato-1.jpg" alt="Foto Prato 1" />
-          <h2>Pizzas</h2>
-          <ul>
-            <li><span>R$27,90</span>Mozzarella</li>
-            <li><span>R$34,90</span>Margherita</li>
-            <li><span>R$37,50</span>Napolitana</li>
-            <li><span>R$35,70</span>Portuguesa</li>
-            <li><span>R$33,80</span>Napolitana</li>
-          </ul>
-        </div>
-
-        <div class="menu-item">
-          <img src="img/prato-2.jpg" alt="Foto Prato 2" />
-          <h2>Massas do Luigi</h2>
-          <ul>
-            <li><span>R$25,70</span>Macarrão à Bolonhesa</li>
-            <li><span>R$22,00</span>Nhoques</li>
-            <li><span>R$25,50</span>Raviolis</li>
-            <li><span>R$30,90</span>Lassanha</li>
-            <li><span>R$27,30</span>Canelloni</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="container contato">
-      <h1 class="grid-4 titulo">Contato</h1>
-      <div class="grid-7 offset-1">
-        <form action="" method="POST">
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome" required />
-
-          <div class="row">
-            <div class="grid-7">
-              <label for="email">E-mail</label>
-              <input type="email" name="email" id="email" required />
-            </div>
-
-            <div class="grid-5">
-              <label for="telefone">Telefone</label>
-              <input type="text" name="telefone" id="telefone" required />
-            </div>
-          </div>
-
-          <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="mensagem" required></textarea>
-
-          <input class="button" type="button" value="Enviar" />
-        </form>
-
-        <div class="contato-info">
-          <p>douglasdeoliveiradd@gmail.com ////</p>
-          <p>+55 021 2412-3333 ////</p>
-        </div>
-
-        <a href="#" class="contato-mapa">
-          <img src="img/map.png" alt="Endereço Le Scone" />
-        </a>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <p class="grid-9">
-          Le Scone © 1989 - 2021. Alguns direitos reservados.
-        </p>
-        <a class="grid-3" href="https://github.com/douglasoliveira96" target="_blank">
-          <img src="img/lescone-icone.png" alt="Ícone Le Scone" />
-        </a>
-      </div>
-    </footer>
-  </body>
+<head>
+	<title>Le Scone</title>
+	<meta name="description" content="Le Scone - Restaurante">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|PT+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<main class="container intro">
+		<div class="grid-5">
+			<img class="logo" src="img/lescone.png" alt="Le Scone" />
+			<div class="intro-info">
+				<p>De Seg. à Sab.<span class="aberto"></span><br>das 07:00h às 18:00h</p>
+				<p>Praia de Botafogo, 300<br>Rio de Janeiro - RJ</p>
+			</div>
+			<p class="intro-telefone">+55 021 2412-3333</p>
+		</div>
+		<div class="grid-7">
+			<img class="intro-foto" src="img/foto.jpg" alt="Foto de Le Scone" />
+		</div>
+	</main>
+	
+	<section class="container menu">
+		<h1 class="grid-4 titulo">Menu</h1>
+		<div class="grid-7 offset-1">
+			<div class="menu-item">
+				<img src="img/prato-1.jpg" alt="Foto Prato 1">
+				<h2>Pizzas</h2>
+				<ul>
+					<li><span>R$27,90</span>Mozzarela</li>
+					<li><span>R$34,90</span>Margherita</li>
+					<li><span>R$30,50</span>Napolitana</li>
+					<li><span>R$34,70</span>Portuguesa</li>
+					<li><span>R$30,50</span>Calabresa</li>
+				</ul>
+			</div>
+			<div class="menu-item">
+				<img src="img/prato-2.jpg" alt="Foto Prato 2">
+				<h2>Massas do Luigi</h2>
+				<ul>
+					<li><span>R$10,70</span>Macarrão à Bolonhesa</li>
+					<li><span>R$14,90</span>Nhoques</li>
+					<li><span>R$16,70</span>Raviolis</li>
+					<li><span>R$19,90</span>Lassanha</li>
+					<li><span>R$16,70</span>Canelloni</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container contato">
+		<h1 class="grid-4 titulo">Contato</h1>
+		<div class="grid-7 offset-1">
+			<form>
+				<label>Nome</label>
+				<input type="text">
+				<div class="row">
+					<div class="grid-7">
+						<label>E-mail</label>
+						<input type="text">
+					</div>
+					<div class="grid-5">
+						<label>Telefone</label>
+						<input type="text">
+					</div>
+				</div>
+				<label>Mensagem</label>
+				<textarea></textarea>
+				<input class="button" type="button" value="Enviar">
+			</form>
+			<div class="contato-info">
+				<p>douglasoliveiradd@gmail.com ////</p>
+				<p>+55 021 2412-3333 ////</p>
+			</div>
+			<a href="#" class="contato-mapa">
+				<img src="img/map.png" alt="Como chegar em Le Scone">
+			</a>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<p>Le Scone © 1996 - 2021. Alguns direitos reservados</p>
+			<a href="https://github.com/douglasoliveira96" target="_blank">
+				<img src="img/lescone-icone.png" alt="Le Scone Icone" />
+			</a>
+		</div>
+	</footer>
+	
+</body>
 </html>
